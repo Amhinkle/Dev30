@@ -1,9 +1,10 @@
 // Todays Forecast
 const kelvin = 293;
-// Converting Kelvin to Celsius
+// Celsius is kelvin - 273
 var celsius = 293 - 272;
-// Calculation Fahrenheit
+// formula for celsius to fahrenheit
 var fahrenheit = celsius * (9 / 5) + 32;
-// Founding down fahrenheit temp
-fahrenheit = Math.floor(fahrenheit);
-console.log(`The temperature is ${fahrenheit} degrees Fahrenheit.`);
+console.log('The temperature is ${fahrenheit) degrees Fahrenheit.');
+// round result down to nearest number
+const newton = Math.floor(celsius * (33 / 100));
+console.log('The temperature is ${newton) degrees Newton.`);
